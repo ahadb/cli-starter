@@ -1,0 +1,13 @@
+{
+  "name": "cli-starter",
+  "version": "1.0.0",
+  "description": "a minimal starter for your next Node CLI app",
+  "bin": {
+    "fu": "bin/fu"
+  },
+  "scripts": {},
+  "devDependencies": {},
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
