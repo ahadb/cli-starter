@@ -1,13 +1,27 @@
 {
   "name": "cli-starter",
-  "version": "1.0.0",
-  "description": "a minimal starter for your next Node CLI app",
+  "version": "1.0.2",
+  "description": "A minimal starter for your next Node CLI app",
   "bin": {
-    "fu": "bin/fu"
+    "cli-starter": "bin/cli-starter"
   },
   "scripts": {},
   "devDependencies": {},
   "dependencies": {
-    "minimist": "^1.2.0"
-  }
+    "minimist": "^1.2.0",
+    "chalk": "^2.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahadb/cli-starter"
+  },
+  "keywords": [
+    "cli",
+    "starter",
+    "boilerplate",
+    "command",
+    "line",
+    "interface",
+    "minimal"
+  ]
 }

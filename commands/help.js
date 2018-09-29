@@ -1,21 +1,33 @@
+const chalk = require('chalk')
+const b = chalk.bold
+const u = chalk.underline
+const d = chalk.dim
+
 const cmdMenus = {
   index: `
-    fu 1.0.0
-    url: https://your-path-to-usage.com
+    ${b(`your-package`)}
+    url: https://github.com/jsinfin/fincli
+    version: 1.0.0
     
-    Basic Commands:
-    fu [command] <options>
+    ${b(`> your-package`)} [command] <options>
     
-    bar ................ show your first command
-    version ............ show your package version
-    help ............... show your help menu for a command
-    config ............. path to your config file`,
+    ${d(`USAGE:`)}
+    foo                  show your first command
+    bar                  show your second command
+    foo --symbol -s      show your first command with args
+    version, v           show your package version
+    help, h              show your help menu for a command
+    config               path to your config file`,
+
+  foo: `
+    ${d(`Basic Usage:`)}
+    your-package foo <no options>`,
 
   bar: `
-    Basic Usage:
-    fu bar <options>
+    ${d(`Basic Usage:`)}
+    your-package bar <options>
 
-    --option, -o ..... the option to use`,
+    --option, -o ..... some extra option for bar`
 }
 
 module.exports = (args) => {

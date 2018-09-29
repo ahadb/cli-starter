@@ -4,8 +4,7 @@ A bare bones starter for Node CLI that focuses only on the addition of commands.
 
 ### Installation 
 
-* NPM: ...coming, yet to push to npm
-* Github: clone it!
+npm install cli-starter -g
 
 ### Usage
 
@@ -14,8 +13,8 @@ A bare bones starter for Node CLI that focuses only on the addition of commands.
 * run `npm link`
 * start adding commands
 
-CLI Starter does not use `async` or `await` nor any other deps except one for 
-processing args. That's it, you choose your own path from here.
+CLI Starter does not use `async` or `await` nor any other deps except for 
+processing args and chalk. That's it, you choose your own path from here.
 
 ### What You Could Do
 
