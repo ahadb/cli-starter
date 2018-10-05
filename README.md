@@ -4,7 +4,7 @@ A bare bones starter for Node CLI that focuses only on the addition of commands.
 
 ### Installation 
 
-npm install cli-starter -g
+`npm install -g cli-starter`
 
 ### Usage
 
@@ -20,5 +20,5 @@ processing args and chalk. That's it, you choose your own path from here.
 
 1. Add more commands
 2. Install more CLI specific packages like `chalk`, `clui`, `figlet`, `inquirer`, `clear`
-3. Fetch some data
+3. Fetch some data, transform and show it
 4. Write and read from the file system
